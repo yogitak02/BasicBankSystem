@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to bottom left, red, blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1800px 800px;
+}
+
+table {
+    
+    font-family: arial, sans-serif;
+    display: table;/*outer border of table*/
+    margin: 0 100px;
+    background-color: rgb(250, 252, 251);
+    color: whitesmoke;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: black;
+    color: whitesmoke;
+}
+
+tr {
+    color: black;
+    font-weight: bold;
+}
+
+td,    
+th {
+    border: 1px solid #b8a6a6;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+tr:nth-child(even) {   /*get colour one after one row*/
+    background-color: #dfcfcf;
+}
+
+header {
+    background-color: black;
+    position: relative;
+    bottom: 30px;
+}
+
+nav {
+    background-color: rgba(46, 43, 43, 0.979);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: azure;
+    padding: 2px 6px 2px 6px;
+    border-radius: 2px;
+}
+
+nav a:hover{
+    background-color:rgb(223, 247, 88);
+}
+
+.link:hover {
+    color:rgba(230, 245, 100, 0.979);
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    background-color: black;
+    color: whitesmoke;
+}
